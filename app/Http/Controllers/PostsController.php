@@ -27,4 +27,10 @@ class PostsController extends Controller
         
         return redirect()->route('top');
     }
+    
+    public function show()
+    {
+        return view('posts.show');
+    }
+    
 }
