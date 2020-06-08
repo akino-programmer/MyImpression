@@ -23,10 +23,14 @@
          <span class="mr-2">
              投稿日時
          </span>
-        
     </div>
-  
   </div>
+  
+    <div class="mt-4 text-right">
+            <a class="btn btn-primary" href="{{route('posts.edit', ['post' => $post])}}">
+                編集
+            </a>
+   </div>
   </div>
 
 @endsection('content')
